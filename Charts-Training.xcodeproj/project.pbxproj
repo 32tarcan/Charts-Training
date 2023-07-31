@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AF3A4E812A728BC000485D8E /* Charts Training.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Charts Training.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF3A4E812A728BC000485D8E /* Charts-Training.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Charts-Training.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF3A4E842A728BC000485D8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF3A4E862A728BC000485D8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AF3A4E882A728BC000485D8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		AF3A4E782A728BC000485D8E = {
 			isa = PBXGroup;
 			children = (
-				AF3A4E832A728BC000485D8E /* Charts Training */,
+				AF3A4E832A728BC000485D8E /* Charts-Training */,
 				AF3A4E822A728BC000485D8E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		AF3A4E822A728BC000485D8E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF3A4E812A728BC000485D8E /* Charts Training.app */,
+				AF3A4E812A728BC000485D8E /* Charts-Training.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AF3A4E832A728BC000485D8E /* Charts Training */ = {
+		AF3A4E832A728BC000485D8E /* Charts-Training */ = {
 			isa = PBXGroup;
 			children = (
 				AF3A4E842A728BC000485D8E /* AppDelegate.swift */,
@@ -61,15 +61,15 @@
 				AF3A4E8F2A728BC100485D8E /* LaunchScreen.storyboard */,
 				AF3A4E922A728BC100485D8E /* Info.plist */,
 			);
-			path = "Charts Training";
+			path = "Charts-Training";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AF3A4E802A728BC000485D8E /* Charts Training */ = {
+		AF3A4E802A728BC000485D8E /* Charts-Training */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF3A4E952A728BC100485D8E /* Build configuration list for PBXNativeTarget "Charts Training" */;
+			buildConfigurationList = AF3A4E952A728BC100485D8E /* Build configuration list for PBXNativeTarget "Charts-Training" */;
 			buildPhases = (
 				AF3A4E7D2A728BC000485D8E /* Sources */,
 				AF3A4E7E2A728BC000485D8E /* Frameworks */,
@@ -79,9 +79,11 @@
 			);
 			dependencies = (
 			);
-			name = "Charts Training";
+			name = "Charts-Training";
+			packageProductDependencies = (
+			);
 			productName = "Charts Training";
-			productReference = AF3A4E812A728BC000485D8E /* Charts Training.app */;
+			productReference = AF3A4E812A728BC000485D8E /* Charts-Training.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AF3A4E7C2A728BC000485D8E /* Build configuration list for PBXProject "Charts Training" */;
+			buildConfigurationList = AF3A4E7C2A728BC000485D8E /* Build configuration list for PBXProject "Charts-Training" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -108,11 +110,13 @@
 				Base,
 			);
 			mainGroup = AF3A4E782A728BC000485D8E;
+			packageReferences = (
+			);
 			productRefGroup = AF3A4E822A728BC000485D8E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AF3A4E802A728BC000485D8E /* Charts Training */,
+				AF3A4E802A728BC000485D8E /* Charts-Training */,
 			);
 		};
 /* End PBXProject section */
@@ -282,6 +286,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +314,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,7 +331,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AF3A4E7C2A728BC000485D8E /* Build configuration list for PBXProject "Charts Training" */ = {
+		AF3A4E7C2A728BC000485D8E /* Build configuration list for PBXProject "Charts-Training" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF3A4E932A728BC100485D8E /* Debug */,
@@ -334,7 +340,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF3A4E952A728BC100485D8E /* Build configuration list for PBXNativeTarget "Charts Training" */ = {
+		AF3A4E952A728BC100485D8E /* Build configuration list for PBXNativeTarget "Charts-Training" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF3A4E962A728BC100485D8E /* Debug */,
